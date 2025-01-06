@@ -1,0 +1,76 @@
+.monstruo {
+  width: 30vw;
+  height: 40vh;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: #77DD77;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cabeza {
+  width: 60%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: #FFAA00;
+  margin: 20% auto;
+  position: relative;
+}
+
+.ojo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 40%;
+}
+
+.ojo.izquierdo {
+  left: 25%;
+}
+
+.ojo.derecho {
+  left: 75%;
+}
+
+.boca {
+  width: 40%;
+  height: 20%;
+  border-radius: 50%;
+  background-color: #DD0000;
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
+}
+
+.brazo {
+  width: 10px;
+  height: 40%;
+  background-color: #77DD77;
+  position: absolute;
+  bottom: 0;
+}
+
+.brazo.izquierdo {
+  left: 15%;
+}
+
+.brazo.derecho {
+  right: 15%;
+}
+
+.pierna {
+  width: 10px;
+  height: 40%;
+  background-color: #77DD77;
+  position: absolute;
+  bottom: 0;
+}
+
+.pierna.izquierda {
+  left: 30%;
+}
+
+.pierna.derecha {
+  right: 30%;
+}

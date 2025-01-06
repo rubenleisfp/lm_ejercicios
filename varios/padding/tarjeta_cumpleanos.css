@@ -1,0 +1,8 @@
+
+    #tarjeta {
+        background-color: #f8d7da; /* Puedes elegir cualquier color que te guste */
+        padding: 20px;
+        border-radius: 10px; /* Agrega bordes redondeados para hacerlo más atractivo */
+        width: 300px; /* Ajusta el ancho según tus preferencias */
+        text-align: center; /* Centra el contenido */
+    }

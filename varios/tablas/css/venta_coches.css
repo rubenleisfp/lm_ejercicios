@@ -1,0 +1,49 @@
+table  {
+
+    padding: 20px;
+
+    border: 1px solid black;
+
+    border-collapse: collapse;
+
+    text-align: center;
+
+    margin-left: 20px
+
+    }
+
+  td {
+
+    border: 1px solid black;
+
+    border-collapse: collapse;
+
+    text-align: center;
+
+    padding: 3px;
+
+    }
+
+  thead {
+
+    font-weight: bold;
+
+    }
+
+ tbody tr:nth-child(even) {
+
+    background-color: #eee;
+
+    }
+
+ tbody tr:nth-child(odd) {
+
+    background-color:#fadddd;
+
+    }
+
+ tfoot {
+
+    background-color:#f4fdcb;
+
+    }

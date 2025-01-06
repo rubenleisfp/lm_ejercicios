@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro en la plataforma de streaming de Armazon</title>
+</head>
+<body>
+  <h1>Registro en la plataforma de streaming Armazon</h1>
+  <form action="procesar_registro.php" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" maxlength="50" required><br><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" maxlength="50" required><br><br>
+
+    <label for="usuario">Nombre de usuario:</label>
+    <input type="text" id="usuario" name="usuario" maxlength="20" required><br><br>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" minlength="8" required><br><br>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required><br><br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" min="18" max="120" required><br><br>
+
+    <label for="preferencias">Preferencias:</label><br>
+    <input type="checkbox" id="accion" name="preferencias" value="accion">
+    <label for="accion">Acción</label><br>
+    <input type="checkbox" id="drama" name="preferencias" value="drama">
+    <label for="drama">Drama</label><br>
+    <input type="checkbox" id="comedia" name="preferencias" value="comedia">
+    <label for="comedia">Comedia</label><br><br>
+
+    <label for="suscripcion">Tipo de suscripción:</label><br>
+    <input type="radio" id="basico" name="suscripcion" value="basico">
+    <label for="basico">Básico</label><br>
+    <input type="radio" id="estandar" name="suscripcion" value="estandar">
+    <label for="estandar">Estándar</label><br>
+    <input type="radio" id="premium" name="suscripcion" value="premium">
+    <label for="premium">Premium</label><br><br>
+
+    <label for="volumen">Volumen:</label>
+    <input type="range" id="volumen" name="volumen" min="0" max="100" step="1"><br><br>
+
+    <label for="calidad">Calidad (0-10):</label>
+    <input type="number" id="calidad" name="calidad" min="0" max="10" step="1"><br><br>
+
+    <label for="tarjeta">Número de tarjeta:</label>
+    <input type="text" id="tarjeta" name="tarjeta" maxlength="16" required><br><br>
+
+    <input type="submit" value="Registrarse">
+  </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+/* Selector de etiqueta */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Selector de clase */
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+  }
+  
+  /* Selector de ID */
+  #box1 {
+    background-color: red;
+  }
+  
+  /* Selector de atributo */
+  [id^="box"] {
+    border: 2px solid green;
+  }
+  
+  /* Selector descendente */
+  section #box2 {
+    background-color: #f39c12;
+  }
+  
+  /* Selector hijo directo */
+  section > #box3 {
+    background-color: #9b59b6;
+  }
+  
+  /* Selector de grupo */
+  #box4, #box5 {
+    background-color: #1abc9c;
+  }

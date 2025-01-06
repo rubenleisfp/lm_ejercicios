@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Fuente predeterminada */
+    text-align: center; /* Alinea todo el contenido al centro */
+    color: #333; /* Color de texto predeterminado */
+}
+
+.title {
+    font-family: 'Georgia', serif; /* Fuente personalizada para el título */
+    color: #008080; /* Color del título */
+}
+
+.recipe {
+    text-align: left; /* Alinea el contenido de la receta a la izquierda */
+}
+
+.recipe h2 {
+    color: #800000; /* Color de los subtítulos */
+}
+
+.recipe li {
+    font-style: italic; /* Aplica cursiva a los pasos de la receta */
+}
+
+.recipe a {
+    text-decoration: underline; /* Subraya los enlaces de ingredientes */
+    color: #0000FF; /* Color de los enlaces */
+}

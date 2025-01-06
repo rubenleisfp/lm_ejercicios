@@ -1,0 +1,52 @@
+h1 {
+    border-bottom: 4px solid #333; /* Ancho y color del borde inferior */
+  }
+  
+  p {
+    border: 2px dashed #666; /* Estilo y ancho del borde */
+    padding: 15px; /* Aumenta el espacio interior */
+  }
+  
+  ul {
+    border-left: 5px outset #f00; /* Estilo y ancho del borde izquierdo */
+  }
+  
+  li {
+    border-bottom: 2px groove #999; /* Estilo y ancho del borde inferior */
+    padding: 10px; /* Aumenta el espacio interior */
+  }
+  
+  img {
+    border-radius: 20px; /* Radio de curvatura de las esquinas */
+    border: 3px ridge #ff0000; /* Estilo y ancho del borde */
+  }
+  
+  /* Clases adicionales */
+  .boton {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  a {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+  }
+  
+  /* Formulario */
+  input {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    border: 2px solid #ccc;
+    padding: 5px;
+  }
+  
+  button {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }

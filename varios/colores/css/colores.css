@@ -1,0 +1,15 @@
+/* Estilos para la Caja 1 */
+#caja1 {
+    background-color: #FF33B2; /* Fondo en formato hexadecimal */
+  }
+  
+  /* Estilos para la Caja 2 */
+  #caja2 {
+    background-color: darkorange; /* Color de texto por nombre */
+  }
+  
+  /* Estilos para la Caja 3 */
+  #caja3 {
+    background-color: rgb(51, 66,255); /* Borde en formato RGB */
+  }
+  

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Selector Descendiente - Ejercicio</title>
+  <style>
+    /* Estilos para h2 dentro de div con clase "tarea" */
+    .tarea h2 {
+      color: red;
+      font-size: 18px;
+    }
+
+    /* Estilos para p dentro de div con clase "tarea" */
+    #resumen p {
+      color: blue;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="tarea">
+    <h2>Tarea 1</h2>
+    <p>Descripción de la tarea 1.</p>
+  </div>
+  <div class="tarea">
+    <h2>Tarea 2</h2>
+    <p>Descripción de la tarea 2.</p>
+  </div>
+  <div id="resumen">
+    <h2>Resumen de tareas</h2>
+    <p>Aquí comentamos el resumen de las tareas</p>
+  </div>
+  <p>Parrafo final</p>
+</body>
+</html>

@@ -1,0 +1,10 @@
+p { color: blue }
+h2 {color: green}
+.clase1 {color: red}
+#cabecera3 {color: green}
+
+
+a:visited {
+    color: green;
+  }
+  

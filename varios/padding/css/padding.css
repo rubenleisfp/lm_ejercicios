@@ -1,0 +1,32 @@
+/* Estilos comunes para todas las cajas */
+div {
+    margin-bottom: 20px; /* Añade algún margen entre las cajas */
+    text-align: center; /* Centra el texto dentro de las cajas */
+    font-size: 18px; /* Tamaño del texto */
+    border: 2px solid #2980b9; /* Borde con color */
+    color: #fff;
+  }
+  
+  /* Estilos para la Caja 1 */
+  #caja1 {
+    padding: 15px; /* Relleno de 15 pixeles en todos los lados */
+    background-color: #3498db; /* Color de fondo */
+
+
+  }
+  
+  /* Estilos para la Caja 2 */
+  #caja2 {
+    padding-top: 30px;    /* Más relleno en la parte superior */
+    padding-bottom: 30px; /* Más relleno en la parte inferior */
+    padding-left: 15px;   /* Relleno en el lado izquierdo */
+    padding-right: 15px;  /* Relleno en el lado derecho */
+    background-color: #2ecc71;
+ 
+  }
+  
+  /* Estilos para la Caja 3 */
+  #caja3 {
+    padding: 0; /* Sin relleno en ningún lado */
+    background-color: #e74c3c;
+  }

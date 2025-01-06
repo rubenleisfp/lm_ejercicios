@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Ejemplo de RSS del periodico de Ruben Leis</title>
+		<link>https://rubenleisfp.000webhostapp.com</link>
+		<description>Uso y definicion RSS</description>
+		<item>
+			<title>Nueva especie</title>
+			<link>https://rubenleisfp.000webhostapp.com/periodico/noticia1.html</link>
+			<description>Descubren nueva especie de mariposa en selva amazónica</description>
+		</item>
+		<item>
+			<title>Vida en Marte</title>
+			<link>https://rubenleisfp.000webhostapp.com/periodico/noticia2.html</link>
+			<description>Investigadores encuentran evidencia de vida en Marte</description>
+		</item>
+		<item>
+			<title>Cambio climático</title>
+			<link>https://rubenleisfp.000webhostapp.com/periodico/noticia3.html</link>
+			<description>Estudio revela impacto del cambio climático en la biodiversidad</description>
+		</item>
+		<item>
+			<title>Revolución urbana</title>
+			<link>https://rubenleisfp.000webhostapp.com/periodico/noticia4.html</link>
+			<description>Nueva tecnología promete revolucionar el transporte urbano</description>
+		</item>
+		<item>
+			<title>¡Cura para el cáncer!</title>
+			<link>https://rubenleisfp.000webhostapp.com/periodico/noticia5.html</link>
+			<description>Científicos descubren posible cura para el cáncer</description>
+		</item>
+		
+	</channel>
+</rss>

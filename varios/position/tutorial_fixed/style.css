@@ -1,0 +1,50 @@
+html, body {
+    margin:0;
+    padding:0;
+    box-sizing: boder-box;
+}
+
+body {
+    padding-top: 6em;
+}
+
+.cabecera {
+    background-color: black;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.contenedor {
+    margin:30vh auto;
+    border: 5px solid black;
+    width:300px;
+    display: flex; /* Disposicion horizonatal */
+    flex-wrap: wrap; /*Salto de linea sino caben los elementos en solo una */
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+.caja-1 {
+    background-color: red;
+}
+.caja-2 {
+    background-color: green;
+}
+.caja-3 {
+    background-color: violet;
+}
+.caja-4 {
+    background-color: blue;
+}
+.caja-5 {
+    background-color: orange;
+}
+.caja-6 {
+    background-color: brown;
+}
