@@ -1,0 +1,24 @@
+.gallery {
+	/* Haz que utilice flex y en caso de que no quepan todos los elementos, salten a una nueva linea */
+	/* Que tengan los elementos espacio alrededor */
+}
+
+.product-card {
+  /* Ancho de 250 px */
+  /* Margen de 20 px */
+  /* Padding de 15 px */
+  /* Borde solido de 1 px */
+  /* Texto alineado al centro */
+}
+
+.product-card img {
+	/* Largo maximo 100% */
+	/* Alto auto */
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+En pantallas de maximo 600 pixeles, haz que el width de product-card sea 90%
+*/
+

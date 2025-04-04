@@ -1,0 +1,22 @@
+body {
+/* Eliminar margin y padding */
+  }
+  
+  .container {
+	/* La altura de la piscina es de 400 px */
+	/* Habra que aplicar algo relacionado con alineacion flex */
+  }
+  
+  .lane {
+    /* ocupa un ancho de 90% */
+    /* Altura del carril de natación 150 px*/
+    /* Espacio entre los carriles 10 px abajo*/
+	/* Habra que aplicar algo relacionado con justify-content */ 
+    border: 2px solid blue; /* Borde del carril de natación */
+  }
+  
+  .lane img {
+    /* Ancho del pez 150 px*/
+    /* Altura automática según el ancho */
+  }
+  
