@@ -1,0 +1,14 @@
+.container {
+	 /* Haz que el contenedor tenga un alto de 400 px y sea flex wrap */
+	 /* Prueba las diversas combinaciones de align-items y align-content. Finalmente quedate con la que más se asemeje a la imagen del enunciado */
+}
+
+.animal {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: #ffb6c1;
+  border: 2px solid #333;
+  background-size: cover;
+  background-position: center;
+}
